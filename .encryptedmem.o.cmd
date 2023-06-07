@@ -1,0 +1,1 @@
+cmd_/home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.o := ld -m elf_x86_64 -z noexecstack   -r -o /home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.o @/home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.mod 

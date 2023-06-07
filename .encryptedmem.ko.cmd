@@ -1,0 +1,1 @@
+cmd_/home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.ko /home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.o /home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.mod.o;  true
