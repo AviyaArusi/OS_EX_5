@@ -1,5 +1,7 @@
-#ifndef MAIN_H
-#define MAIN_H
+// #ifndef MAIN_H
+// #define MAIN_H
+
+#pragma once
 
 #include <linux/module.h>
 #include <linux/init.h>
@@ -16,4 +18,6 @@ extern ssize_t device_read(struct file *file, char *buffer, size_t len, loff_t *
 extern ssize_t device_write(struct file *file, const char *buffer, size_t len, loff_t *offset);
 extern long device_ioctl(struct file *file, unsigned int ioctl_num, unsigned long ioctl_param);
 
-#endif // MAIN_H
+// #endif // MAIN_H
+
+

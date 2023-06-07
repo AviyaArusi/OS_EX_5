@@ -17,7 +17,10 @@ sudo insmod encryptedmem.ko
 You can now interact with the module. For example, to write to the module, you can use the echo command:
 
 
-echo "Hello" > /dev/encryptedmem
+echo "Hello" | sudo tee /dev/encryptedmem > /dev/null
+or (for getting the output to the terminal)
+echo "Hello" | sudo tee /dev/encryptedmem
+
 To read from the module, you can use the cat command:
 
 
