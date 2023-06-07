@@ -1,1 +1,0 @@
-cmd_/home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.mod := printf '%s\n'   main.o ioctl.o memory.o | awk '!x[$$0]++ { print("/home/aviya/Desktop/Semester_b/OS/EX_5/"$$0) }' > /home/aviya/Desktop/Semester_b/OS/EX_5/encryptedmem.mod
