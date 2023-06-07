@@ -18,7 +18,8 @@ long device_ioctl(struct file *file, unsigned int ioctl_num, unsigned long ioctl
 
     /* Fetch the new key from user space */
     err = copy_from_user(&new_key, (uint32_t *)ioctl_param, sizeof(new_key));
-    if (err != 0) {
+    if (err != 0) 
+    {
         printk(KERN_WARNING "Failed to copy data from user space\n");
         return -EFAULT;
     }
